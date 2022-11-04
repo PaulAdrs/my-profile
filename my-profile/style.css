@@ -1,0 +1,91 @@
+body {
+	background-color: #f9fafd;
+	color: rgb(61, 61, 59);
+	font-family: Helvetica;
+	font-size: 17px;
+	font-weight: lighter;
+}	
+
+h1{
+	font-family: Arial;
+	font-size: 32px;
+	color: rgb(61, 61, 59);
+}
+
+h2, h3, h4{
+	font-size: 30px;
+	font-family: Courier;
+	color: rgb(199, 0, 57);
+	font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(199, 0, 57);
+}
+
+#paul {
+	width: 200px;
+	border-radius: 50%;
+	box-shadow: 3px 3px 3px grey;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.box {
+    background-color: white;
+    padding: 40px;
+    margin: 20px 0px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+.btn-red{
+	background-color: rgb(199, 0, 57);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-red:hover{
+	background-color: rgb(144, 12, 63);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+.list-inline {
+	font-size: 50px;
+}
